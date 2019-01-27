@@ -8,9 +8,7 @@
   </head>
 <body>
 
-
     <!-- navigation bar -->
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">WasteHero</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,12 +31,76 @@
             </ul>
           </div>
         </nav>
+    <form>
+        <fieldset>
+            <br />
+            <br />
+            <p>
+                <label>Owner name:  </label>
+                <input type="text"
+                       id="myText"
+                       value="text here" />
+            </p>
+
+            <p>
+            <label>Location: </label>
+            <input type="text"
+                   id="myText"
+                   value="text here" />
+            </p>
+
+            <p>
+                <label>Type of Food: </label>
+                <input type="text"
+                       id="myText"
+                       value="text here" />
+            </p>
+
+
+            <p>
+                <label>Time the meal was cooked: </label>
+                <input type="text"
+                       id="myText"
+                       value="text here" />
+                <label>hours</label>
+            </p>
+
+            <p>
+                <label>Price: </label>
+                <input type="text"
+                       id="myText"
+                       value="text here" />
+                <label>$</label>
+            </p>
+
+            <p>
+                <label>Detailed Descirption of Food: </label>
+                <br />
+                <textarea id="myTextArea"
+                          rows="2"
+                          cols="80">Your text here</textarea>
+            </p>
+        </fieldset>
+    </form>
+    <br />
+
+    <p>Upload pictures of the food:</p>
+
+
+    <input type="file" id="myFile">
+
+
+    <script>
+function myFunction() {
+  var x = document.getElementById("myFile");
+  x.disabled = true;
+}
+    </script>
+
+    <br />
+    <br />
+    <button onclick="myFunction()">Save</button>
 
 </body>
 </html>
-
-
-
-
-
 
